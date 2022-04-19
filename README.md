@@ -1,4 +1,4 @@
- #MercadoLiebre
+#MercadoLiebre
  
 Proyecto en el cual se intenta replicar a Mercado Libre usando solo HTML, CSS y JS
 está dividido en carpetas para que se vaya visualizando el avance que hubo entre proyecto y proyecto
