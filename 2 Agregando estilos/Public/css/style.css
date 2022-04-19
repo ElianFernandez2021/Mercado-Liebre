@@ -1,0 +1,71 @@
+*{
+    font-family: -apple-system, Roboto, ;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+
+header i {
+    color: black;
+}
+.listaHeader{
+    list-style: none;
+    padding: 0;
+}
+
+.burger-menu i{
+    font-size: 1.5em;
+    color: white;
+    background-color: #1259c3;
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.burger-menu{
+    text-align: center;
+}
+
+.seccionVisita{
+    font-size: 24px;
+}
+
+.seccionOfertas{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+footer article{
+    font-size: 12px;
+    text-align: center;
+}
+
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.derechos{
+    text-align: center;
+}

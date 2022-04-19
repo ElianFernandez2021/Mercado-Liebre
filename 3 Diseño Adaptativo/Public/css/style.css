@@ -1,0 +1,136 @@
+*{
+    font-family: -apple-system, Roboto, ;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+
+header i {
+    color: black;
+}
+.listaHeader{
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.burger-menu i{
+    font-size: 1.5em;
+    color: white;
+    background-color: #1259c3;
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.burger-menu{
+    text-align: center;
+}
+.bannerHome{
+    text-align: center;
+}
+
+.seccionVisita{
+    font-size: 24px;
+}
+
+.seccionOfertas{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.precio-descuento{
+    font-size: 16px;
+}
+
+footer article{
+    font-size: 12px;
+    text-align: center;
+}
+
+.icon-truck{
+    color: #39b54a;;
+}
+.descuento{
+    color: #39b54a;;
+}
+
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.derechos{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    width: 90%;
+    margin:10px;
+    
+
+}
+
+main .contenedorDeProducto{
+    margin: 20px;
+}
+
+.infoContenedor{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #ebebeb;
+    background-color: white;
+    padding: 15px;
+}
+
+@media (max-width:470px) {
+        /*Tablets*/
+        .infoContenedor{
+            opacity: 0;
+            z-index: -9999;
+            position: absolute;
+        }
+        .listaHeader{
+            opacity: 0;
+            z-index: -9999;
+            position: absolute;
+        }
+        
+}
+@media (min-width:470px) {
+    /*Tablets*/
+    .burger-menu{
+        opacity: 0;
+        z-index: -9999;
+        position: absolute;
+    }
+    
+}
+
+@media (min-width:769px) {
+    /*Laptop*/
+    main .contenedorDeProducto{
+        box-shadow: 10px 5px 25px rgb(131, 131, 131);
+    }
+    
+    
+}

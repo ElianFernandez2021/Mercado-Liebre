@@ -1,0 +1,302 @@
+*{
+    font-family: -apple-system, Roboto, ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    background-color: #ebebeb;
+}
+.buscador-logo-compra{
+    display: flex;
+    justify-content: space-between;
+}
+.imgLogo{
+    width: 30%;
+    margin: 20px;
+}
+
+
+.buscador{
+    max-width: 600px;
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    right: 10px;
+    border-radius: 10px;
+}
+
+.contenedorQuota{
+    width: 40%;
+    position: relative;
+}
+
+.quota{
+    width: 100%;
+    margin: 20px;
+    position: absolute;
+    top: 5%;
+
+}
+
+
+.logoBusqueda1{
+    position: absolute;
+    bottom: 50%;
+    right: 1px;
+}
+
+.contenedorBuscador{
+    width: 50%;
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.quota2{
+    text-align: center;
+}
+
+header{
+    background-color: #EAC926;
+    width: 100%;
+}
+
+header i {
+    color: black;
+}
+.listaHeader{
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.burger-menu i{
+    font-size: 1.5em;
+    color: white;
+    background-color: #1259c3;
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.burger-menu{
+    text-align: center;
+}
+
+.navHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navHeader ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navHeader ul a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.bannerHome{
+    text-align: center;
+}
+
+.tituloVisita{
+    font-size: 40px;
+    text-align: center;
+}
+
+.contenedorDeProducto{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+    height: 100%;
+}
+
+.tituloOfertas{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.precio{
+    font-size: 24px;
+}
+
+.descuento{
+    font-size: 22px;
+    margin-left: 15px;
+    color: #39b54a;
+}
+
+.precio-descuento{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+}
+.product-name{
+    font-size: 30px;
+}
+
+footer article{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.derechos{
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    margin:0 auto;
+}
+
+
+.infoContenedor{
+    display: block;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #ebebeb;
+    background-color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.icon-truck{
+color: #39b54a;
+display: block;
+font-size: 25px;
+padding: 5px;
+width: 45px;
+height: 45px;
+border-width: 50px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -24px;
+}
+
+@media (max-width:542px) {
+        /*Tablets*/
+        .infoContenedor{
+            opacity: 0;
+            z-index: -9999;
+            position: absolute;
+        }
+        .navHeader{
+            opacity: 0;
+            z-index: -9999;
+            position: absolute;
+        }
+        .contenedorDeProducto{
+        display: inline-block;
+        flex-flow: row wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 45%;
+        }
+
+        .buscador-logo-compra{
+    display: flex;
+    justify-content: space-between;
+}
+.imgLogo{
+    width: 30%;
+    margin: 20px;
+}
+.buscador{
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    right: 10px;
+    border-radius: 10px;
+}
+
+
+
+.logoBusqueda1{
+    position: absolute;
+    bottom: 50%;
+    right: 1px;
+}
+
+.contenedorBuscador{
+    width: 50%;
+    position: relative;
+    margin: 20px;
+}
+
+.quota{
+    opacity: 0;
+    z-index: -9999;
+    position: absolute;
+}
+.contenedorQuota{
+    opacity: 0;
+    z-index: -9999;
+    position: absolute;
+}
+    
+    }
+
+
+
+
+@media (min-width:542px) {
+    /*Tablets*/
+    .burger-menu{
+        opacity: 0;
+        z-index: -9999;
+        position: absolute;
+    }
+    .contenedorDeProducto{
+        display: inline-block;
+        flex-flow: row wrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 45%;
+    }
+    .quota2{
+        position: absolute;
+        z-index: 0;
+        opacity: 0;
+    }
+    
+}
+
+@media (min-width:769px) {
+    /*Laptop*/
+    main .contenedorDeProducto{
+        box-shadow: 10px 5px 25px rgb(131, 131, 131);
+    }
+    .contenedorDeProducto{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: inline-flexbox;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 20%;
+    }
+    
+    
+}
